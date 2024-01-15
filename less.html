@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Python.org</title>
+    <link rel="shortcut icon" href="images/logo.ico" type="image/png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-nav">
+            <a href="https://python.org">
+                <img src="images/logo.png" class="logo" alt="Python">
+            </a>
+            <div class="search-donate">
+                <button type="button" class="donate">Donate</button>
+
+                <div class="search-bar-container">
+                    <div class="search-input">
+                        <input type="text" placeholder="Search">
+                        <button type="button">Go</button>
+                    </div>
+
+                    <a href="#" class="socialize-btn">Socialize</a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a href="#" class="active">About</a>
+                </li>
+                <li>
+                    <a href="#">Downloads</a>
+                </li>
+                <li id="firstSection">
+                    <a href="#">Documentation</a>
+                </li>
+                <li>
+                    <a href="#">Community</a>
+                </li>
+                <li id="secondSection">
+                    <a href="#">Success Stories</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+                <li id="thirdSection">
+                    <a href="#">Events</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1>
+                    Python is powerful... and fast;
+                    <span class="new-line">plays well with others;</span>
+                    <span class="new-line">runs everywhere;</span>
+                    <span class="new-line">is friendly & easy to learn;</span>
+                    is Open.
+                </h1>
+                <p>These are some of the reasons people who use Python would rather not use anything else.</p>
+            </div>
+            <img src="images/box.png" class="hero-image" alt="Python">
+        </div>
+    </header>
+    <main>
+        <section class="list news">
+            <h2>Latest News</h2>
+            <a href="#" class="show-more">
+                <i class="bx bx-chevron-right"></i>
+                <i class="bx bx-chevron-right"></i>
+                <i class="bx bx-chevron-right"></i>
+                <span>More</span>
+            </a>
+            <ul>
+                <li>
+                    <span>2021-07-22</span>
+                    <a href="#">Python Software Foundation - July 2021 Newsletter</a>
+                </li>
+                <li>
+                    <span>2021-07-21</span>
+                    <a href="#">Python Software Foundation Fellow Members for Q2 2021</a>
+                </li>
+                <li>
+                    <span>2021-07-12</span>
+                    <a href="#">Lukasz Langa is the inaugural CPython Developer-in-Residence!</a>
+                </li>
+                <li>
+                    <span>2021-07-11</span>
+                    <a href="#">Python 3.10.0b4 is available</a>
+                </li>
+                <li>
+                    <span>2021-07-11</span>
+                    <a href="#">Python 3.10.0b4 is available</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="list uses">
+            <h2>Use Python for...</h2>
+            <a href="#" class="show-more">
+                <i class="bx bx-chevron-right"></i>
+                <i class="bx bx-chevron-right"></i>
+                <i class="bx bx-chevron-right"></i>
+                <span>More</span>
+            </a>
+            <ul>
+                <li class="uses-list-item">
+                    <span>Web Development:</span>
+                    <a href="#">Django</a>,
+                    <a href="#">Pyramid</a>,
+                    <a href="#">Bottle</a>,
+                    <a href="#">Tornado</a>,
+                    <a href="#">Flask</a>,
+                    <a href="#">web2py</a>,
+                </li>
+                <li class="uses-list-item">
+                    <span>GUI Development</span>
+                    <a href="#">tkinter</a>,
+                    <a href="#">PyGObject</a>,
+                    <a href="#">PyQt</a>,
+                    <a href="#">PySide</a>,
+                    <a href="#">Kivy</a>,
+                    <a href="#">wxPython</a>,
+                </li>
+                <li class="uses-list-item">
+                    <span>Scientific and Numeric:</span>
+                    <a href="#">sciPy</a>,
+                    <a href="#">Pandas</a>,
+                    <a href="#">IPython</a>,
+                </li>
+                <li class="uses-list-item">
+                    <span>Software Development</span>
+                    <a href="#">Buildbot</a>,
+                    <a href="#">Trac</a>,
+                    <a href="#">Roundup</a>,
+                </li>
+                <li class="uses-list-item">
+                    <span>System Administration:</span>
+                    <a href="#">Ansible</a>,
+                    <a href="#">Salt</a>,
+                    <a href="#">OpenStack</a>,
+                    <a href="#">xonsh</a>,
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+            <li>
+                <a href="#">Help & General Contact</a>
+            </li>
+            <li>
+                <a href="#">Diversity Initiatives</a>
+            </li>
+            <li>
+                <a href="#">Submit Website Bug</a>
+            </li>
+            <li>
+                <a href="#">Status <span class="status"></span></a>
+            </li>
+        </ul>
+        <div class="copyright">
+            <span class="copyright-text">Copyright &copy;2001-2021.</span>
+            <a href="#">Python Software Foundation</a>
+            <a href="#">Legal Statements</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Powered by Heroku</a>
+        </div>
+    </footer>
+</body>
+
+</html>
